@@ -19,3 +19,13 @@ function checkMultiplicity(a, b) {
 console.log(checkMultiplicity(25, 5));
 console.log(checkMultiplicity(15, 4));
 console.log(checkMultiplicity(15, 5));
+
+function isDelta(a, b, c) {
+  if (a + b > c && b + c > a && c + a > b) {
+    return true;
+  } else {
+    return false;
+  }
+}
+console.log(isDelta(4, 5, 8));
+console.log(isDelta(2, 2, 4));
