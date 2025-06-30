@@ -29,3 +29,9 @@ function isDelta(a, b, c) {
 }
 console.log(isDelta(4, 5, 8));
 console.log(isDelta(2, 2, 4));
+
+function isTriangleS(a, b) {
+  const s = (1 / 2) * a * b;
+  return s;
+}
+console.log(2, 3);
