@@ -34,4 +34,4 @@ function isTriangleS(a, b) {
   const s = (1 / 2) * a * b;
   return s;
 }
-console.log(2, 3);
+console.log(isTriangleS(2, 3));
